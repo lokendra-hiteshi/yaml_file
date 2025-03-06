@@ -14,9 +14,15 @@
       action: stop
     targetConfigs:
     - url: "https://github.com/ubiquitous-factory/quadit"
+    - url: "https://github.com/ubiquitous-factory/quadit"    
       targetPath: "samples/sleep.container"
       branch: "main"
       schedule: "*/1 * * * *"
+    targetConfigs:
+    - url: "https://github.com/ubiquitous-factory/quadit"
+      targetPath: "samples/sleep.container"
+      branch: "main"
+      schedule: "*/1 * * * *"  
     configs:
     - url: "https://github.com/ubiquitous-factory/quadit"     
       targetPath: "samples/sleep.container"
